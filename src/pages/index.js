@@ -1,19 +1,19 @@
 import * as React from "react"
+import Layout from "../components/layout"
 
 const IndexPage = () => {
   return (
-    <main>
-      <title>Home Page</title>
-      <h1>
+    <Layout title="Home Page">
+      <div>
         Congratulations
         <br />
         <span>— you just made a Gatsby site! </span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
-      </h1>
+      </div>
       <p>Hi There</p>
-    </main>
+    </Layout>
   )
 }
 
